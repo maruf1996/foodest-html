@@ -1,0 +1,198 @@
+@media (max-width: 1500px) {
+  .hero-right img {
+    max-width: 100%;
+  }
+  .rectangle-shape {
+    width: 350px;
+    height: 350px;
+  }
+  .category-section .shape-1 {
+    visibility: hidden;
+  }
+}
+@media (max-width: 1200px) {
+  .rectangle-shape {
+    width: 310px;
+    height: 310px;
+    left: 60px;
+  }
+  .hero-content {
+    flex-wrap: wrap;
+  }
+  .hero-left {
+    width: 80%;
+  }
+  .hero-left h1 {
+    font-size: 60px;
+  }
+  .hero-right {
+    width: 100%;
+  }
+
+  .category-row {
+    flex-wrap: wrap;
+  }
+
+  .about-row {
+    gap: 24px;
+  }
+  .about-row .about-left {
+    width: calc(50% - 12px);
+  }
+  .about-row .about-right {
+    width: calc(50% - 12px);
+  }
+
+  .wcs-row {
+    flex-wrap: wrap;
+  }
+  .hide-on-small {
+    display: none;
+  }
+
+  .menu-card {
+    width: calc(33% - 60px);
+  }
+}
+@media (max-width: 992px) {
+  .team-row {
+    flex-wrap: wrap;
+  }
+  .team-single {
+    width: calc(33% - 18px);
+  }
+
+  .footer-shape-1,
+  .footer-shape-2 {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .hero-left {
+    width: 100%;
+  }
+
+  .category-item {
+    width: calc(33% - 62px);
+  }
+
+  .about-row {
+    flex-wrap: wrap;
+  }
+  .about-row .about-left {
+    width: 100%;
+  }
+  .about-row .about-right {
+    width: 100%;
+  }
+
+  .wcs-left {
+    width: 100%;
+  }
+  .wcs-right {
+    width: 100%;
+  }
+
+  .menu-card-row {
+    gap: 24px;
+  }
+  .menu-card {
+    width: calc(50% - 60px);
+  }
+}
+@media (max-width: 850px) {
+  .nav-menu {
+    display: none;
+  }
+  .header-right {
+    gap: 16px;
+  }
+  .mobile-menu-btn {
+    display: inline-block;
+  }
+  .hero-left h1 {
+    font-size: 52px;
+  }
+
+  .offered-row {
+    flex-wrap: wrap;
+  }
+  .offered-row .offered-details {
+    width: 100%;
+  }
+  .offered-row .products-image {
+    width: 100%;
+  }
+
+  .client-card-row {
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .client-card {
+    width: 100%;
+  }
+
+  .blog-row {
+    flex-wrap: wrap;
+  }
+  .blog-single-card {
+    width: 100%;
+  }
+  .blog-top-row {
+    justify-content: center;
+  }
+  .blog-top-row .template-btn {
+    display: none;
+  }
+  .blog-top-row .offered-section-title {
+    text-align: center;
+  }
+  .mobile-explore-btn {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .team-row {
+    gap: 20px;
+  }
+  .team-single {
+    width: calc(50% - 18px);
+  }
+
+  .footer-menu {
+    gap: 15px;
+  }
+}
+@media (max-width: 630px) {
+  .category-item {
+    width: calc(50% - 60px);
+  }
+
+  .wcs-horizontal-box {
+    gap: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .menu-card {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+@media (max-width: 470px) {
+  .header-right .template-btn {
+    display: none;
+  }
+  .hero-left h1 {
+    font-size: 42px;
+  }
+  .rectangle-shape {
+    left: 0;
+  }
+  .category-item {
+    width: 100%;
+  }
+
+  .team-single {
+    width: 100%;
+  }
+}
